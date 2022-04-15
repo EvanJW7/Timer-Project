@@ -19,7 +19,6 @@ public class Timer {
 		long duration = (endTime - startTime);
 		System.out.println("Case 1:");
 		System.out.println(duration + " nanoseconds");
-		//System.out.println(duration/10);
 		System.out.println("\n");
 		
 		//Run time - Case 2
@@ -29,7 +28,6 @@ public class Timer {
 		long duration2 = (endTime2 - startTime2);
 		System.out.println("Case 2:");
 		System.out.println(duration2 + " nanoseconds");
-		//System.out.println(duration2/100);
 		System.out.println("\n");
 		
 		//Run time - Case 3
@@ -38,8 +36,8 @@ public class Timer {
 		long endTime3 = System.nanoTime();
 		long duration3 = (endTime3 - startTime3);
 		System.out.println("Case 3:");
-		//System.out.println(duration3 + " nanoseconds");
-		System.out.println(duration3/1000);
+		System.out.println(duration3 + " nanoseconds");
+		
 	}
 
 }
